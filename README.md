@@ -79,4 +79,3 @@ The Llama2 Medical Bot can be used for answering medical-related queries. To use
 
 5. The bot can be customized to return specific information based on the query and context provided.
 
-a2 Medical Bot! 🚀
