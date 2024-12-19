@@ -1,8 +1,8 @@
 
 
-# Llama2 Medical Bot
+# Llama2 Medical Assistant Bot
 
-The Llama2 Medical Bot is a powerful tool designed to provide medical information by answering user queries using state-of-the-art language models and vector stores. This README will guide you through the setup and usage of the Llama2 Medical Bot.
+The Llama-2 Medical Bot is an AI-driven application designed to provide medical-related information and answers to user queries. It integrates advanced language models with a retrieval-augmented generation (RAG) pipeline to deliver accurate and concise responses, leveraging context from a vector database and user chat history.
 
 ## Table of Contents
 
@@ -12,8 +12,7 @@ The Llama2 Medical Bot is a powerful tool designed to provide medical informatio
 - [Installation](#installation)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Prerequisites
 
@@ -22,7 +21,7 @@ Before you can start using the Llama2 Medical Bot, make sure you have the follow
 - Python 3.6 or higher
 - Required Python packages (you can install them using pip):
     - langchain
-    - chainlit
+    - Streamlit
     - sentence-transformers
     - faiss
     - PyPDF2 (for PDF document loading)
@@ -32,8 +31,8 @@ Before you can start using the Llama2 Medical Bot, make sure you have the follow
 1. Clone this repository to your local machine.
 
     ```bash
-    git clone https://github.com/your-username/langchain-medical-bot.git
-    cd langchain-medical-bot
+    git clone https://github.com/your-username/AI_DRIVEN_MEDICAL_ASSISTANT.git
+    cd AI_DRIVEN_MEDICAL_ASSISTANT
     ```
 
 2. Create a Python virtual environment (optional but recommended):
