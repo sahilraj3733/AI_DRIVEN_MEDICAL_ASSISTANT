@@ -1,0 +1,12 @@
+langchain
+langgraph
+ipykernel
+langchain-groq
+python-dotenv
+streamlit
+langgraph-checkpoint-sqlite
+langchain_community
+langchain_google_genai
+langchain_huggingface
+sentence-transformers
+faiss-cpu
