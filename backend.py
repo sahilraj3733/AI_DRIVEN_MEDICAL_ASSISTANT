@@ -22,7 +22,7 @@ os.environ["TAVILY_API_KEY"] = travly
 api_key = os.getenv('groq_api')
 
 # Initialize LLM and Embeddings
-llm = ChatGroq(model="gemma2-9b-it", api_key=api_key)
+llm = ChatGroq(model="llama-3.1-8b-instant", api_key=api_key)
 embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 
 # Load FAISS vector store
